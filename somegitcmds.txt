@@ -1,0 +1,40 @@
+git init 
+echo "This is a test" > t1.txt
+  205  echo "This is also a test" > t2.txt
+  206  git config --global username "0911usmc"
+  207  git config --global user.name "0911usmc"
+  208  git config --global user.email "cohorsebutler@gmail.com"
+  209  ll
+  210  ls .git
+  211  git status
+  212  git add t1.txt t2.txt
+  213  git status
+  214  git commit
+  
+  git commit
+  232  git status
+  233  git log
+  234  vim t2.txt
+  235  git status
+  236  git add .
+  237  git status
+  238  git commit -m "made some changes"
+  239  git status
+  240  git log
+  
+  242  git remote add origin git@github.com:0911usmc/testgit.git
+  243  git remote -v
+  244  git log
+  245  git branch --move master main
+  
+  256  git pull
+  257  ls
+  258  cat hi.py
+  259  python3 hi.py
+  260  git log
+  
+    264  git add -u
+  265  git status
+  266  git commit -m "Made hi interactive"
+  267  git push
+  268  git log
